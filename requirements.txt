@@ -1,0 +1,11 @@
+typing
+langchain_community
+langchain_core
+langchain_experimental
+typing_extensions
+langgraph
+langchain_core
+python-dotenv
+langchain-groq
+langsmith
+streamlit
