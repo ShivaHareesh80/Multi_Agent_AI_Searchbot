@@ -1,6 +1,6 @@
 # Multi_Agent AI Searchbot
 
-This project presents a multi-agent AI Searchbot system integrated with a search engine and Python REPL, designed to handle complex user queries and perform Math calculations, with a systematic approach. It leverages the capabilities of LangChain and LangGraph libraries, Tavily is integrated for search engine fucntionality and Python REPL is employed for executing complex mathematical computaions. 
+This project presents a multi-agent AI Searchbot system integrated with a search engine and Python REPL, designed to handle complex user queries and perform Maths calculations, with a systematic approach. It leverages the capabilities of LangChain and LangGraph libraries, Tavily is integrated for search engine functionality and Python REPL is employed for executing complex mathematical computations. 
 
 ## Features
 
@@ -13,10 +13,10 @@ The primary benefits of using multi-agent systems are:
 
 
 The system incorporates **"divide-and-conquer"** approach: 
-  - **Supervisior:** Based on the user's query  a supervisor agent will use a tool-calling LLM to decide which of the agent tools to call and as well as decides the arguments to pass to those agents.
+  - **Supervisor:** Based on the user's query  a supervisor agent will use a tool-calling LLM to decide which of the agent tools to call and as well as decides the arguments to pass to those agents.
   - **Router:** Based on the supervisor agent output,a Router will route and call the appropriate expert tools for performing the task.
   - **Expert_tool:** Expert_tool agent takes the user query as input arguments, performs the necessary action and produce the output and that output is then passed back to the supervisor agent.
-  - **Supervisior:** The supervisor agent receives the output from the expert tool and decides whether any further action need to taken or generate the final response.
+  - **Supervisor:** The supervisor agent receives the output from the expert tool and decides whether any further action need to taken or generate the final response.
 
 
 ## Graph WorkFLow
